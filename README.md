@@ -10,7 +10,7 @@ Features:
 
 # How to use
 
-See (example)[./example/Main.hs] and run it with `cabal new-run -f examples`.
+See [example](./example/Main.hs) and run it with `cabal new-run -f examples`.
 
 First, define you own authorization type:
 
