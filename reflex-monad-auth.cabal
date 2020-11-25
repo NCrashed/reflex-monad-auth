@@ -1,10 +1,11 @@
 name:                reflex-monad-auth
-version:             0.1.0.0
+version:             0.1.0.1
 synopsis:            Utilities to split reflex app to authorized and not authorized contexts
-description:         See README.md
+description:         The package provides utilities to build in authorization in reflex application in agnostic way to the concrete authorization scheme.
 license:             MIT
 license-file:        LICENSE
 copyright:           2020 Anton Gushcha
+maintainer:          Anton Gushcha <ncrashed@protonmail.com>
 category:            Web
 build-type:          Simple
 cabal-version:       >=1.10

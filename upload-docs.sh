@@ -1,7 +1,7 @@
 #!/bin/sh
 set -xe
 
-rm ./dist-newstyle/reflex-monad-auth-*-docs.tar.gz
+rm ./dist-newstyle/reflex-monad-auth-*-docs.tar.gz || true
 
 # assumes cabal 2.4 or later
 cabal v2-haddock --haddock-for-hackage --enable-doc
